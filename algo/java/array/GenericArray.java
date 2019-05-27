@@ -65,8 +65,9 @@ public class GenericArray<T> {
         checkIndex(index);
         // 如果当前元素个数等于数组容量，则将数组扩容为原来的2倍
         if (size == data.length){
-            
+
         }
+        return false;
     }
     //向数组头插入元素
 
