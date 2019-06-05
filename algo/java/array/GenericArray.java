@@ -1,7 +1,5 @@
 package array;
 
-import com.sun.org.apache.xpath.internal.functions.FuncFalse;
-
 /**
  * @author dongf
  * @date 2019/05/24
@@ -65,7 +63,10 @@ public class GenericArray<T> {
         checkIndex(index);
         // 如果当前元素个数等于数组容量，则将数组扩容为原来的2倍
         if (size == data.length){
-
+            for (int i = 0; i < data.length; i++) {
+                
+            }
+            data = (T[])new Object[2*data.length];
         }
         return false;
     }
