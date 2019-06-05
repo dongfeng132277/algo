@@ -71,7 +71,9 @@ public class GenericArray<T> {
         return false;
     }
     //向数组头插入元素
-
+    public boolean headInsert(T e){
+        return false;
+    }
     //向数组尾插入元素
 
     //删除index位置的元素，并返回
